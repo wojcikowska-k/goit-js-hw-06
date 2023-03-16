@@ -1,8 +1,7 @@
-// const input = document.getElementById(`validation-input`);
 const input = document.querySelector(`input`);
 
 const checkLength = () => {
-  if (input.textLength < 6) {
+  if (input.textLength < Number(input.dataset.length)) {
     input.classList.remove(`valid`);
     input.classList.add(`invalid`);
   } else {
