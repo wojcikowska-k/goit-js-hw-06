@@ -1,1 +1,1 @@
-# goit-js-hw-06
+https://wojcikowska-k.github.io/goit-js-hw-06/
