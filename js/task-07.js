@@ -5,4 +5,4 @@ const changeSize = () => {
   text.style.fontSize = `${input.value}px`;
 };
 
-input.addEventListener("click", changeSize);
+input.addEventListener("input", changeSize);
